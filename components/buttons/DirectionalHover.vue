@@ -54,7 +54,7 @@ onMounted(() => {
 
 <template>
   <div class="btn-wrap">
-    <a :href="props.link" data-theme="dark" data-btn-hover="" class="btn w-inline-block">
+    <a href="#" data-theme="dark" data-btn-hover="" class="btn w-inline-block">
       <div class="btn__bg"></div>
       <div class="btn__circle-wrap">
         <div class="btn__circle">
@@ -85,6 +85,9 @@ onMounted(() => {
   text-decoration: none;
   display: flex;
   position: relative;
+  background: #2DB4FA;
+  color: white;
+  max-width: 400px;
 }
 
 .btn__text {
@@ -106,7 +109,7 @@ onMounted(() => {
 }
 
 .btn__bg {
-  border: 1px solid var(--brand_light_gray);
+  /* border: 1px solid var(--brand_light_gray); */
 
   border-radius: 1.5em;
   width: 100%;

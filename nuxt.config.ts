@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     vueI18n: './languages.config.ts',
     strategy: 'prefix',
     locales: ['en', 'pt'], // used in URL path prefix
-    defaultLocale: 'en',
+    defaultLocale: 'pt',
   },
   gsap: {
     extraPlugins: {
@@ -33,10 +33,10 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       link: [
-        // {
-        //   rel: "stylesheet",
-        //   href: "https://api.fontshare.com/v2/css?f[]=satoshi@400,401,500,501,700&display=swap",
-        // },
+        {
+          rel: "stylesheet",
+          href: "https://api.fontshare.com/v2/css?f[]=gambetta@400,500&display=swap",
+        },
         {
           rel: "icon",
           type: "image/x-icon",
