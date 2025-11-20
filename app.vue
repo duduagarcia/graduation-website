@@ -95,7 +95,7 @@ onMounted(() => {
     </div>
     <MarqueesWScroll>SAVE THE DATE </MarqueesWScroll>
     <h1 class="h2" id="where">Onde vai ser?</h1>
-    <h1 class="nome-mason" ><a href="https://www.instagram.com/maisonpetropolis/" target="_blank">Mason Petrópolis Eventos</a></h1>
+    <h1 class="nome-mason" ><a href="https://www.instagram.com/maisonpetropolis/" target="_blank">Maison Petrópolis Eventos</a></h1>
     <br></br><br></br><br><br><br>
     <div class="two-col">
       <h2 class="address">Endereço: <a href="https://www.google.com/maps/place/Maison+Petr%C3%B3polis+Eventos/@-30.0417033,-51.1821937,17z/data=!3m1!4b1!4m6!3m5!1s0x95197820773851fb:0xc5f1d3d15eab3533!8m2!3d-30.041708!4d-51.1796188!16s%2Fg%2F1vd7726w?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Av.Montenegro nº51, Petrópolis, Porto Alegre - RS</a></h2>
