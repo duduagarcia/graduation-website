@@ -1,6 +1,6 @@
 <template>
   <div class="btn-group">
-    <a href="#" class="btn-bubble-arrow w-inline-block">
+    <a href="#where" class="btn-bubble-arrow w-inline-block">
       <div class="btn-bubble-arrow__arrow">
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="100%" class="btn-bubble-arrow__arrow-svg">
           <polyline points="18 8 18 18 8 18" fill="none" stroke="currentColor" stroke-miterlimit="10"

@@ -202,7 +202,7 @@ onMounted(() => {
 }
 
 .rows_initial_loader {
-    background: var(--brand_black_semi);
+    background: #2DB4FA;
     z-index: 999;
     top: 0;
     height: 20vh;
@@ -214,11 +214,11 @@ onMounted(() => {
 .loading-container {
     z-index: 999;
     pointer-events: none;
-    background-color: var(--brand_bg_gray);
+    background-color: #111112;
     position: fixed;
     inset: 0;
     overflow: hidden;
-    color: var(--brand_black);
+    color: #2DB4FA;
 }
 
 .loading__progress {
@@ -231,7 +231,7 @@ onMounted(() => {
 
 .loading__progress-inner {
     transform-origin: bottom;
-    background-color: var(--brand_black_semi);
+    background-color: #2DB4FA;
     width: 100%;
     height: 100%;
     position: absolute;
