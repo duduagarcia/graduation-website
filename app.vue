@@ -10,7 +10,7 @@ onMounted(() => {
   useSmoothScroll();
 
   const documentTitleStore = document.title;
-  const documentTitleOnBlur = "Let's Create! 💪"; // Define your custom title here
+  const documentTitleOnBlur = "Bora bora! 💪"; // Define your custom title here
 
   // Set original title if user is on the site
   window.addEventListener("focus", () => {
@@ -70,15 +70,15 @@ onMounted(() => {
 
 
 
-useSeoMeta({
-  title: "Eduardo A. Garcia • Formatura",
-  ogTitle: "Eduardo A. Garcia • Formatura",
-  description:
-    "Ficarei muito feliz em ter você comigo para celebrar essa conquista.",
-  ogDescription:
-    "Ficarei muito feliz em ter você comigo para celebrar essa conquista.",
-  ogImage: '/main-formatura.JPEG',
-});
+// useSeoMeta({
+//   title: "Eduardo A. Garcia • Formatura",
+//   ogTitle: "Eduardo A. Garcia • Formatura",
+//   description:
+//     "Ficarei muito feliz em ter você comigo para celebrar essa conquista.",
+//   ogDescription:
+//     "Ficarei muito feliz em ter você comigo para celebrar essa conquista.",
+//   ogImage: '/main-formatura.JPEG',
+// });
 
 
 </script>

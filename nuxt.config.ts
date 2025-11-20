@@ -51,6 +51,22 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
+      meta: [
+        { name: 'description', content: 'Ficarei muito feliz em ter você comigo para celebrar essa conquista.' },
+
+        // 🔹 OPEN GRAPH (para WhatsApp, LinkedIn, Facebook)
+        { property: 'og:title', content: 'Eduardo A. Garcia • Formatura' },
+        { property: 'og:description', content: 'Ficarei muito feliz em ter você comigo para celebrar essa conquista.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://formatura-do-garcia.digital' },
+        { property: 'og:image', content: 'https://formatura-do-garcia.digital/og-image.jpg' },
+
+        // 🔹 TWITTER CARD (para Twitter, Discord… opcional)
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Eduardo A. Garcia • Formatura' },
+        { name: 'twitter:description', content: 'Ficarei muito feliz em ter você comigo para celebrar essa conquista.' },
+        { name: 'twitter:image', content: 'https://formatura-do-garcia.digital/og-image.jpg' },
+      ]
     },
   },
 });
